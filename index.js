@@ -6,3 +6,11 @@ setInterval(function(){
   .next('a').fadeIn()
   .end().appendTo('.imgSlide');
 }, 3000);
+
+
+
+$(document).ready(function(){
+  $('#toggleButton').click(function(){
+      $('#navMenu').slideToggle();
+  });
+});

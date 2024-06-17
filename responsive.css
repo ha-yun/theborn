@@ -1,0 +1,124 @@
+@media all and (max-width:1024px){
+    /* header */
+    #header img{
+        max-width: 160px;
+    }
+    .nav{
+        padding-left: 1rem;
+    }
+    .nav a{
+        font-size: 13px;
+    }
+    /* body */
+    
+}
+
+@media all and (max-width:768px){
+    /* body */
+    .imgSlideWrap{
+        flex-direction: column;
+    }
+    .imgSlide{
+        width: 100%;
+    }
+    .imgSlideWrap h2{
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 30px;
+        font-size: 0.85rem;
+    }
+    #about h1{
+        font-size: 1.5rem;
+    }
+    .subtitle_h2{
+        font-size: 1.5rem;
+    }
+    .imgSlideWrap strong{
+        font-size: 1.3rem;
+    }
+    .imgSlide a > img {
+        object-fit: contain;
+    }
+    #show .flex{
+        flex-direction: column;
+    }
+    .movie-bar{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 0;
+        padding-top: 1rem;
+        border:none;
+    }
+    .movie-bar li{
+        width: 50%;
+    }
+    #show img{
+        width: 100%;
+    }
+    #footer{
+        font-size: 11px;
+        flex-direction: column;
+    }
+    #footer a{
+        opacity: 0;
+    }
+    #brand ul li{
+        flex-direction: column;
+        padding: 8px 0;
+    }
+    #brand ul img{
+        margin-top: 8px;
+    }
+    #brand ul li:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    #brand ul p{
+        font-size: 0.8rem;
+        padding: 4px;
+        width: 100%;
+    }
+    #brand ul p strong{
+        font-size: 0.9rem;
+    }
+    #show iframe{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 468px){
+    .imgSlide{
+        width: 100%;
+        height: 200px;
+    }
+    #header{
+        justify-content: space-between;
+        position: relative;
+    }
+    nav{
+        display: flex;
+    }
+    nav button{
+        display: inline-block;
+        border: none;
+        font-size: 16px;
+        font-weight: bolder;
+        color: #93000b;
+        background: none;
+    }
+    .nav{
+        display: none;
+
+    }
+    .nav_responsive{
+        background-color: white;
+        padding: 10px 16px 20px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        transition:.2s all ease;
+    }
+    .nav_responsive a{
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
